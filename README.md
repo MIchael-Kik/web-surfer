@@ -12,14 +12,18 @@ Currently Web Surf needs to be complied from source and is only available for Li
 ### Instructions for GNU/Linux
 
 - Download source code from github
+
 `$ git clone https://github.com/MIchaelkik-web-surf.git`
 
 - Install Depenencies if needed
+
     web_surf needs certian libraries in order to be created
     Install packages for Gtkmm-3.0 and webkit2gtk-4.0
 
 - Build and install with Make
+
 `$ sudo make clean install`
 
 - Run web-surf
+
 `$ web_surf`
