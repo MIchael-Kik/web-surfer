@@ -1,6 +1,6 @@
 CC = g++
-CXXFLAGS = -Wall `pkg-config gtkmm-3.0 --cflags --libs` `pkg-config webkit2gtk-4.0 --cflags --libs`
-LDFLAFS =  
+CXXFLAGS = -Wall -o3 `pkg-config gtkmm-3.0 --cflags --libs` `pkg-config webkit2gtk-4.1 --cflags --libs`
+LDFLAFS =
 
 INSTALLDIR = /usr/local/bin
 APPNAME = web_surfer
@@ -37,3 +37,5 @@ install: all
 
 clean:
 	rm -f $(OBJ) $(DEP) $(BIN)
+cleand:
+	rm -f $(DEP)
