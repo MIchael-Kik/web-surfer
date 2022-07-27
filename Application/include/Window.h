@@ -1,9 +1,7 @@
 #pragma once 
 
-#include <gtkmm/button.h>
-#include <gtkmm/box.h>
-#include <gtkmm/widget.h>
 #include <gtkmm/window.h>
+#include <gtkmm/widget.h>
 #include <webkit2/webkit2.h>
 
 class Window : public Gtk::Window
@@ -14,14 +12,7 @@ public:
 
 protected:
 
-    //Signal Handlers
-    void on_button_clicked();
-
-    // Member containers
-    Gtk::Box m_box;
-
-    //Member Widgets
-    Gtk::Button m_button;
+    // Webview wraper
     Gtk::Widget *m_gtk_wrap;
 
     // Webview

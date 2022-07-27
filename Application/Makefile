@@ -1,5 +1,5 @@
 CC = g++
-CXXFLAGS = -Wall -o3 `pkg-config gtkmm-3.0 --cflags --libs` `pkg-config webkit2gtk-4.1 --cflags --libs`
+CXXFLAGS = -Wall -I./include -o3 `pkg-config gtkmm-3.0 --cflags --libs` `pkg-config webkit2gtk-4.1 --cflags --libs`
 LDFLAFS =
 
 INSTALLDIR = /usr/local/bin

@@ -1,6 +1,5 @@
-#include "../include/Window.h"
+#include <Window.h>
 #include <gtkmm/application.h>
-// #include <webkit2/webkit2.h>
 
 int main (int argc, char **argv)
 {
